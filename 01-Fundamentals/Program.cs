@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Fundamentals.Theory;
+using Fundamentals.Exercises;
+public class Program
+{
+    public static void Main(string[] args) 
+    {
+        //01-Variables
+        //Variables.RunVariables();
+
+        //01-Ejercicios-Variables
+        AverageStudents.RunAverageStudends();
+
+    }
+}
